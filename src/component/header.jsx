@@ -1,5 +1,5 @@
 import React from "react";
-import logoskan from "../media/logoskan.png"
+import logoskan from "../media/logoskan.svg"
 
 
 
