@@ -1,5 +1,6 @@
 import React from "react";
 import mainlogo from "../media/mainlogo.svg";
+import mainlogo2 from "../media/mainlogo2.svg";
 
 export default function Main() {
   return (
@@ -17,6 +18,17 @@ export default function Main() {
           <img alt="Illustration of a persons" src={mainlogo}/>
         </div>
       </div>
+
+      <section className="benefits">
+        <div className="benefits__wrap">
+          <h1 className="benefits__title">
+          ПОЧЕМУ ИМЕННО МЫ
+          </h1>
+        </div>
+      </section>
+         
+
+      
     </main>
   );
 }
