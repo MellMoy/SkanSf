@@ -1,0 +1,74 @@
+@import url(https://myfonts.ru/myfonts?fonts=ferry);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+main {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+    height: 620px;
+    top: 117px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.text-content {
+    max-width: 50%;
+}
+.text-content h1 {
+    font-family: 'Ferry', arial;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+
+    width: 743px;
+    height: 288px;
+    border-left: 60px;
+    margin: 0;
+    
+    
+
+}
+.text-content p {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 20px;
+    line-height: 24.2px;
+    font-weight: 400;
+    margin: 0;
+}
+.text-content button {
+    
+    font-family: "Inter", serif;
+    background-color:#5970FF;
+    color: #ffffff;
+    border: none;
+    margin-top: 70px;
+
+    padding: 14px 63px;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    line-height: 26.63px;
+    font-weight: 500;
+
+}
+.image-content img {
+    width: 629px;
+    height: 593px;
+    padding-top: 24px;
+
+    
+}

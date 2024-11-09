@@ -8,13 +8,14 @@
 /* Основные стили для Header */
 .header {
     background-color: #f8f9fa; /* Цвет фона заголовка */
-    padding: 20px 0; /* Отступы сверху и снизу */
+    
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для заголовка */
 }
 
 /* Обертка для контента заголовка */
 .wrapper {
     max-width: 1440px; /* Максимальная ширина */
+    height: 93px;
     margin: 0 auto; /* Центрирование */
     padding: 0 15px; /* Горизонтальные отступы */
 }
@@ -44,6 +45,7 @@
 /* Навигация */
 .header__nav {
     flex: 1; /* Занимаем оставшееся пространство */
+
 }
 
 .header__list {
@@ -122,7 +124,6 @@
     font-family: "Inter", serif;
     font-size: 14px;
     font-weight: 500;
-    
     letter-spacing: 0.01em;
     text-align: left;
 
