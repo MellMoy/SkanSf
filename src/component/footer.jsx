@@ -15,12 +15,15 @@ export default function Footer() {
           />
         </div>
         <div className="contact-info">
-          <p>г. Москва, Цветной б-р, 40</p>
-          <p>+7 495 771 21 11</p>
-          <p>info@skan.ru</p>
-          <p>Copyright, 2024</p>
+                  <p>г. Москва, Цветной б-р, 40</p>
+        <div className="footer__address">        
+                  <p>+7 495 771 21 11</p>
+                  <p>info@skan.ru</p>
+          <p style={{ marginTop: '21px' }}></p>
+          <p style={{ fontSize: '12px' }}>Copyright. 2022</p>
         </div>
-      </div>
+          </div>  
+ </div>
     </footer>
   );
 }
