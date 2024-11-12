@@ -6,6 +6,7 @@ import Main from "./component/main";
 import "./style/header.css"
 import "./style/footer.css"
 import "./style/main.css"
+import "./style/app.css"
 
 
 
