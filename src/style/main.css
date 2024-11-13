@@ -1,145 +1,232 @@
 @import url(https://myfonts.ru/myfonts?fonts=ferry);
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 main {
-    left: 675px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-
+  left: 675px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1320px;
-    height: 620px;
-    top: 117px;
-    left: 60px;
-    gap: 0px;
-    opacity: 0px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1320px;
+  height: 620px;
+  top: 117px;
+  left: 60px;
+  gap: 0px;
+  opacity: 0px;
 }
 .text-content {
-    max-width: 50%;
+  max-width: 50%;
 }
 .text-content h1 {
-    font-family: 'Ferry', arial;
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 72px;
+  font-family: "Ferry", arial;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
 
-    width: 743px;
-    height: 288px;
-    border-left: 60px;
-    margin: 0;
-    
-    
-
+  width: 743px;
+  height: 288px;
+  border-left: 60px;
+  margin: 0;
 }
 .text-content p {
-    font-family: "Inter", serif;
-    font-size: 20px;
-    color: #000000;
-    padding-top: 20px;
-    line-height: 24.2px;
-    font-weight: 400;
-    margin: 0;
+  font-family: "Inter", serif;
+  font-size: 20px;
+  color: #000000;
+  padding-top: 20px;
+  line-height: 24.2px;
+  font-weight: 400;
+  margin: 0;
 }
 .text-content button {
-    
-    font-family: "Inter", serif;
-    background-color:#5970FF;
-    color: #ffffff;
-    border: none;
-    margin-top: 70px;
+  font-family: "Inter", serif;
+  background-color: #5970ff;
+  color: #ffffff;
+  border: none;
+  margin-top: 70px;
 
-    padding: 14px 63px;
-    font-size: 22px;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 14px 63px;
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
 
-    line-height: 26.63px;
-    font-weight: 500;
-
+  line-height: 26.63px;
+  font-weight: 500;
 }
 .image-content img {
-    width: 629px;
-    height: 593px;
-    padding-top: 24px;
-
-    
+  width: 629px;
+  height: 593px;
+  padding-top: 24px;
 }
-
-
-
 
 /* Второй блок  */
 
 .benefits {
-    width: 1346px;
-    height: 349px;
-    position: relative;
-    top: 550px;
-    right: 1325px;
-
-
-
+  width: 1346px;
+  height: 349px;
+  position: relative;
+  top: 550px;
+  right: 1325px;
 }
 
 .benefits__title {
-    width: 743;
-    height: 54px;
-    font-family: 'Ferry', arial;
-    font-size: 45px;
-    font-weight: 900;
-    line-height: 72px;
+  width: 743;
+  height: 54px;
+  font-family: "Ferry", arial;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 72px;
 }
 
-
 .cards {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .card {
-    margin-top: 70px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    width: 400px;
-    height: 225px;
-    text-align: left;
-
+  margin-top: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  height: 225px;
+  text-align: left;
 }
 
 .card img {
-    padding-top: 22px ;
+  padding-top: 22px;
 }
 .card p {
-    padding-top: 19px;
-    font-family: "Inter", serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #000000;
+  padding-top: 19px;
+  font-family: "Ferry", arial;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
 }
 
 .arrow {
-    opacity: 80%;
-    color: #cccccc;
-    cursor: pointer;
-    align-self: center;
-    position: relative;
-    top: 45px;
+  opacity: 80%;
+  color: #cccccc;
+  cursor: pointer;
+  align-self: center;
+  position: relative;
+  top: 45px;
 }
 
 .arrow:hover {
-    opacity: 100%;
+  opacity: 100%;
 }
 
+.container__img {
+  position: relative;
+  margin-top: 70px;
+}
+
+.container__img img {
+  width: 1307px;
+  height: 572.52px;
+}
+
+/* ТАРИФЫ */
+
+h1 {
+  margin-top: 107.48px;
+  font-family: 'Ferry', Arial;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+}
+.pricing-container { 
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 37px;
+}
+.pricing-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 415px;
+  height: 540px;
+  padding: 20px;
+  text-align: center;
+}
+.pricing-card:nth-child(1) {
+  border-top: 10px solid #ffa500;
+}
+.pricing-card:nth-child(2) {
+  border-top: 10px solid #00ced1;
+}
+.pricing-card:nth-child(3) {
+  border-top: 10px solid #000000;
+}
+.pricing-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.pricing-card p {
+  font-size: 16px;
+  color: #666;
+}
+.pricing-card .price {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.pricing-card .old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 18px;
+}
+.pricing-card .current-plan {
+  background-color: #00bfff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+.pricing-card ul li {
+  margin: 10px 0;
+  color: #333;
+}
+.pricing-card ul li i {
+  color: green;
+  margin-right: 10px;
+}
+.pricing-card button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.pricing-card button:hover {
+  background-color: #1c86ee;
+}
+.pricing-card .cta-button {
+  background-color: #d3d3d3;
+  color: black;
+}
+.pricing-card .cta-button:hover {
+  background-color: #c0c0c0;
+}
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
