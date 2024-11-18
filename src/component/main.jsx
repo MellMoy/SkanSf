@@ -6,6 +6,8 @@ import maskgroup2 from "../media/maskgroup2.svg";
 import maskgroup from "../media/maskgroup.svg";
 import right from "../media/right.svg";
 import left from "../media/left.svg";
+import ok from "../media/ok.svg";
+import lamp from "../media/lamp.svg";
 
 export default function Main() {
   return (
@@ -54,51 +56,58 @@ export default function Main() {
 
               <div>
               <h1>НАШИ ТАРИФЫ</h1>
-    <div class="pricing-container">
-        <div class="pricing-card">
-            <div class="icon"><i class="fas fa-lightbulb"></i></div>
-            <h2>Beginner</h2>
-            <p>Для небольшого исследования</p>
-            <div class="price">799 ₽</div>
-            <div class="old-price">1 200 ₽</div>
-            <div class="current-plan">Текущий тариф</div>
-            <p>или 150 ₽/мес. при рассрочке на 24 мес.</p>
-            <ul>
-                <li><i class="fas fa-check"></i>Безлимитная история запросов</li>
-                <li><i class="fas fa-check"></i>Безопасная сделка</li>
-                <li><i class="fas fa-check"></i>Поддержка 24/7</li>
-            </ul>
-            <button class="cta-button">Перейти в личный кабинет</button>
-        </div>
-        <div class="pricing-card">
-            <div class="icon"><i class="fas fa-bullseye"></i></div>
-            <h2>Pro</h2>
-            <p>Для HR и фрилансеров</p>
-            <div class="price">1 299 ₽</div>
-            <div class="old-price">2 600 ₽</div>
-            <p>или 279 ₽/мес. при рассрочке на 24 мес.</p>
-            <ul>
-                <li><i class="fas fa-check"></i>Все пункты тарифа Beginner</li>
-                <li><i class="fas fa-check"></i>Экспорт истории</li>
-                <li><i class="fas fa-check"></i>Рекомендации по приоритетам</li>
-            </ul>
-            <button>Подробнее</button>
-        </div>
-        <div class="pricing-card">
-            <div class="icon"><i class="fas fa-laptop"></i></div>
-            <h2>Business</h2>
-            <p>Для корпоративных клиентов</p>
-            <div class="price">2 379 ₽</div>
-            <div class="old-price">3 700 ₽</div>
-            <ul>
-                <li><i class="fas fa-check"></i>Все пункты тарифа Pro</li>
-                <li><i class="fas fa-check"></i>Безлимитное количество запросов</li>
-                <li><i class="fas fa-check"></i>Приоритетная поддержка</li>
-            </ul>
-            <button>Подробнее</button>
-        </div>
-    </div>
-              </div>
+    <div className="pricing-container">
+          <div className="pricing-card">
+            <div className="card-header">
+              <div className="icon"><i className="fas fa-lightbulb"><img src={lamp} alt="лампочка" /></i></div>
+              <h2>Beginner</h2>
+              <p className="card-h1">Для небольшого исследования</p>
+              <div className="price">799 ₽</div>
+              <div className="old-price">1 200 ₽</div>
+              <div className="current-plan">Текущий тариф</div>
+              <p className="current-beginner">или 150 ₽/мес. при рассрочке на 24 мес.</p>
+              <div className="tariff-opencart1">В тариф входит:</div>
+              <ul className="current-beginnertext">
+                  <li><i className="fas fa-check"></i><img src={ok} alt="галочка" />Безлимитная история запросов</li>
+                  <li><i className="fas fa-check"></i><img src={ok} alt="галочка" />Безопасная сделка</li>
+                  <li><i className="fas fa-check"></i><img src={ok} alt="галочка" />Поддержка 24/7</li>
+              </ul>
+              <button className="cta-button">Перейти в личный кабинет</button>
+            </div>
+          </div>
+          <div className="pricing-card">
+            <div className="card-header">
+              <div className="`icon"><i className="fas fa-bullseye"></i></div>
+              <h2>Pro</h2>
+              <p>Для HR и фрилансеров</p>
+              <div className="price">1 299 ₽</div>
+              <div className="old-price">2 600 ₽</div>
+              <p>или 279 ₽/мес. при рассрочке на 24 мес.</p>
+              <ul>
+                  <li><i className="fas fa-check"></i>Все пункты тарифа Beginner</li>
+                  <li><i className="fas fa-check"></i>Экспорт истории</li>
+                  <li><i className="fas fa-check"></i>Рекомендации по приоритетам</li>
+              </ul>
+              <button>Подробнее</button>
+            </div>
+          </div>
+          <div className="pricing-card">
+            <div className="card-header">
+              <div className="icon"><i className="fas fa-laptop"></i></div>
+              <h2>Business</h2>
+              <p>Для корпоративных клиентов</p>
+              <div className="price">2 379 ₽</div>
+              <div className="old-price">3 700 ₽</div>
+              <ul>
+                  <li><i className="fas fa-check"></i>Все пункты тарифа Pro</li>
+                  <li><i className="fas fa-check"></i>Безлимитное количество запросов</li>
+                  <li><i className="fas fa-check"></i>Приоритетная поддержка</li>
+              </ul>
+              <button>Подробнее</button>
+            </div>
+          </div>
+      </div>
+                </div>
         
         </div>
       </section>
