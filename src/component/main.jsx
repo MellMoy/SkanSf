@@ -8,6 +8,11 @@ import right from "../media/right.svg";
 import left from "../media/left.svg";
 import ok from "../media/ok.svg";
 import lamp from "../media/lamp.svg";
+import dartslogo from "../media/dartslogo.svg"
+
+
+
+
 
 export default function Main() {
   return (
@@ -55,7 +60,7 @@ export default function Main() {
 
 
               <div>
-              <h1>НАШИ ТАРИФЫ</h1>
+              <h1 className="tariiffh1">НАШИ ТАРИФЫ</h1>
     <div className="pricing-container">
           <div className="pricing-card">
             <div className="card-header">
@@ -77,18 +82,19 @@ export default function Main() {
           </div>
           <div className="pricing-card">
             <div className="card-header">
-              <div className="`icon"><i className="fas fa-bullseye"></i></div>
+              <div className="`icon"><i className="fas fa-bullseye"><img src={dartslogo} alt="мишень" /></i></div>
               <h2>Pro</h2>
-              <p>Для HR и фрилансеров</p>
-              <div className="price">1 299 ₽</div>
-              <div className="old-price">2 600 ₽</div>
-              <p>или 279 ₽/мес. при рассрочке на 24 мес.</p>
-              <ul>
-                  <li><i className="fas fa-check"></i>Все пункты тарифа Beginner</li>
-                  <li><i className="fas fa-check"></i>Экспорт истории</li>
-                  <li><i className="fas fa-check"></i>Рекомендации по приоритетам</li>
+              <p className="card-h1">Для HR и фрилансеров</p>
+              <div className="price2">1 299 ₽</div>
+              <div className="old-price2">2 600 ₽</div>
+              <p className="current-beginner2">или 279 ₽/мес. при рассрочке на 24 мес.</p>
+              <div className="tariff-opencart2">В тариф входит:</div>
+              <ul className="current-beginnertext2">
+                  <li><i className="fas fa-check2"></i><img src={ok} alt="галочка" />Все пункты тарифа Beginner</li>
+                  <li><i className="fas fa-check2"></i><img src={ok} alt="галочка" />Экспорт истории</li>
+                  <li><i className="fas fa-check2"></i><img src={ok} alt="галочка" />Рекомендации по приоритетам</li>
               </ul>
-              <button>Подробнее</button>
+              <button className="cta-button2">Подробнее</button>
             </div>
           </div>
           <div className="pricing-card">
@@ -103,7 +109,7 @@ export default function Main() {
                   <li><i className="fas fa-check"></i>Безлимитное количество запросов</li>
                   <li><i className="fas fa-check"></i>Приоритетная поддержка</li>
               </ul>
-              <button>Подробнее</button>
+              <button >Подробнее</button>
             </div>
           </div>
       </div>
