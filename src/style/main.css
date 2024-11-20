@@ -345,7 +345,7 @@ li {
   letter-spacing: 0.01em;
 
   font-size: 20px;
-  margin-top: 45px;
+  margin-top: 46px;
   margin-left: 30px;
   width: 355px;
   height: 59px;
@@ -446,7 +446,7 @@ li {
   color: #FFFFFF;
 
   font-size: 20px;
-  margin-top: 70px;
+  margin-top: 72px;
   margin-left: 30px;
   width: 355px;
   height: 59px;
@@ -459,4 +459,115 @@ li {
 .fa-bullseye {
   position: absolute;
   padding-left: 283px;
+}
+
+
+/* Третья Карточка тарифов */
+
+.card-h3 {
+  color: #FFFFFF;
+  margin-left: 30px;
+  font-family: 'Inter';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.31px;
+  letter-spacing: 0.01em;
+}
+
+.card-p3 {
+  color: #FFFFFF;
+  position: relative;
+  bottom: 10px;
+  margin-left: 30px;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  letter-spacing: 0.01em;
+}
+
+.fa-laptop {
+  position: absolute;
+  margin-top: 23px;
+  padding-left: 314px;
+}
+
+.price3 {
+  position: relative;
+  top: 38px;
+
+  margin-left: 30px;
+  font-family: 'Inter';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.31px;
+  letter-spacing: 0.01em;
+}
+
+.old-price3 {
+  position: relative;
+  top: 5px;
+  margin-left: 162px;
+  font-family: 'Inter';
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30.26px;
+  letter-spacing: 0.01em;
+  text-decoration-line: line-through;
+  opacity: 50%; 
+}
+
+.tariff-opencart3 {
+  position: relative;
+  top: 81px;
+  padding-left: 30px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  letter-spacing: 0.01em;  
+}
+
+.current-beginnertext3 li {
+  font-family: 'Inter';
+  position: relative;
+  top: 70px;
+  right: 10px;
+  margin-top: 5px;
+}
+
+.current-beginnertext3 img{
+  position: relative;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+
+}
+
+
+ul {
+  list-style: none;
+}
+li {
+  display: block;
+}
+
+.cta-button3 {
+  position: relative;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 24.2px;
+  letter-spacing: 0.01em;
+
+  color: #FFFFFF;
+
+  font-size: 20px;
+  margin-top: 130px;
+  margin-left: 30px;
+  width: 355px;
+  height: 59px;
+  background: #5970FF;
+  border-radius: 5px;
+  border: none;
 }

@@ -8,8 +8,8 @@ import right from "../media/right.svg";
 import left from "../media/left.svg";
 import ok from "../media/ok.svg";
 import lamp from "../media/lamp.svg";
-import dartslogo from "../media/dartslogo.svg"
-
+import dartslogo from "../media/dartslogo.svg"; 
+import computerlogo from "../media/computerlogo.svg"
 
 
 
@@ -99,17 +99,18 @@ export default function Main() {
           </div>
           <div className="pricing-card">
             <div className="card-header">
-              <div className="icon"><i className="fas fa-laptop"></i></div>
-              <h2>Business</h2>
-              <p>Для корпоративных клиентов</p>
-              <div className="price">2 379 ₽</div>
-              <div className="old-price">3 700 ₽</div>
-              <ul>
-                  <li><i className="fas fa-check"></i>Все пункты тарифа Pro</li>
-                  <li><i className="fas fa-check"></i>Безлимитное количество запросов</li>
-                  <li><i className="fas fa-check"></i>Приоритетная поддержка</li>
+              <div className="icon"><i className="fas fa-laptop"><img src={computerlogo} alt="мишень" /></i></div>
+              <h2 className="card-h3" >Business</h2>
+              <p className="card-p3">Для корпоративных клиентов</p>
+              <div className="price3">2 379 ₽</div>
+              <div className="old-price3">3 700 ₽</div>
+              <div className="tariff-opencart3">В тариф входит:</div>
+              <ul className="current-beginnertext3">
+                  <li><i className="fas fa-check3"></i><img src={ok} alt="галочка" />Все пункты тарифа Pro</li>
+                  <li><i className="fas fa-check3"></i><img src={ok} alt="галочка" />Безлимитное количество запросов</li>
+                  <li><i className="fas fa-check3"></i><img src={ok} alt="галочка" />Приоритетная поддержка</li>
               </ul>
-              <button >Подробнее</button>
+              <button className="cta-button3">Подробнее</button>
             </div>
           </div>
       </div>
