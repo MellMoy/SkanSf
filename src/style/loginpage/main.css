@@ -1,0 +1,16 @@
+.main-content {
+  position: relative;
+  margin-top: 69px;
+  margin-left: 60px;
+
+  font-family: "Ferry";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.image-login {
+    padding-top: 13.9px;
+    padding-left: 172px;
+}

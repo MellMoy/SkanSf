@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+
+footer{
+    margin-top: 2200px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.footer2 {
+    max-width: 1440px; /* Максимальная ширина */
+    max-height: 137px;  /* Максимальная высота */
+    margin: 0 auto; /* Центрирование */
+    padding: 0 15px; /* Горизонтальные отступы */
+    background-color: #009688;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+    
+}
+.footer .logo img {
+    height: 50px;
+    margin-left: 60px;
+    width: 141px;
+    height: 141px;
+}
+.footer .contact-info {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 60px;
+    height: 51px;
+    margin: -30px 0 0;
+
+
+
+}
+.footer .contact-info p {
+    margin: 0px ;
+}
+
+.footer__address {
+    text-align: right;
+}
+
+
+/* @media (max-width: 1360px) {
+
+    .footer{
+        max-width: 375px;
+        padding: 0 20px;
+    }
+} */

@@ -34,6 +34,7 @@ main {
   max-width: 50%;
 }
 .text-content h1 {
+  position: relative;
   font-family: 'Ferry', arial;
   font-size: 60px;
   font-weight: 900;
