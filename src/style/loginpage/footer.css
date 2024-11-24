@@ -5,9 +5,9 @@
 
 
 
-footer{
-    margin-top: 2200px;
-    padding: 0;
+.container_footer {
+    padding-top: 80px;
+    margin: 0px;
     font-family: Arial, sans-serif;
 }
 .footer2 {

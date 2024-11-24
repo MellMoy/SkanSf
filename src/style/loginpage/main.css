@@ -11,6 +11,124 @@
 }
 
 .image-login {
-    padding-top: 13.9px;
-    padding-left: 172px;
+  padding-top: 13.9px;
+  padding-left: 172px;
+}
+
+/* Форма Войти */
+
+.container__tabs {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 500px;
+  width: 395px;
+  position: absolute;
+  right: 195px;
+  bottom: 35px;
+}
+
+.image-castle img {
+  position: absolute;
+  right: 600px;
+  bottom: 540px;
+  z-index: 1;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.tabs a {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Inter", serif;
+  color: #4a4a4a;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #c7c7c7;
+  width: 213px;
+  position: relative;
+  right: 10px;
+}
+.tabs a.active {
+  text-align: center;
+  color: #029491;
+  border-bottom: 2px solid #029491;
+  width: 151px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  position: relative;
+  left: 10px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-container {
+  margin-top: 40px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 15px;
+  color: #949494;
+  font-family: "Inter", serif;
+  font-weight: 400;
+}
+.form-group input {
+  width: 379px;
+  height: 43px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btn {
+  width: 379px;
+  padding: 16px;
+  background-color: #5970ff;
+
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+  font-family: "Inter", serif;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 3px;
+  
+}
+.btn:hover {
+  background-color: #000cf1;
+}
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+.forgot-password a {
+  text-decoration: none;
+  text-align: center;
+  color: #5970ff;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  border-bottom: 2px solid #5970ff;
+}
+.social-login {
+  margin-top: 30px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color:  #949494;
+}
+.social-login img {
+  margin: 0 5px;
+  cursor: pointer;
 }

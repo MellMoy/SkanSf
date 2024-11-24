@@ -4,7 +4,7 @@ import logoskan2 from "../media/logoskan2.svg"
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="container_footer">
       <div className="footer">
         <div className="logo">
           <img

@@ -51,11 +51,12 @@
     margin: 0; /* Убираем отступы */
     padding: 0; /* Убираем внутренние отступы */
     font-family: "Inter", serif;
+
     
 }
 
 .header__item {
-    margin: 0 49px; /* Отступы между элементами списка */
+    margin: 0 30px; /* Отступы между элементами списка */
 }
 
 .header__link {
@@ -73,6 +74,7 @@
 
 /* Правая секция заголовка */
 .header__right-section {
+    
     display: flex; /* Используем flexbox для выравнивания */
     align-items: center; /* Вертикальное выравнивание по центру */
 }
