@@ -5,15 +5,14 @@
 
 
 
-footer {
-    margin-top: 2200px;
+.container_footer_3{
+    margin-top: 1000px;
     padding: 0;
     font-family: Arial, sans-serif;
 }
-.footer {
+.footer_3 {
     max-width: 1440px; /* Максимальная ширина */
     max-height: 137px;  /* Максимальная высота */
-    margin: 0 auto; /* Центрирование */
     padding: 0 15px; /* Горизонтальные отступы */
     background-color: #009688;
     color: #FFFFFF;
@@ -21,18 +20,18 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-.footer .logo {
+.footer_3 .logo {
     display: flex;
     align-items: center;
     
 }
-.footer .logo img {
+.footer_3 .logo img {
     height: 50px;
     margin-left: 60px;
     width: 141px;
     height: 141px;
 }
-.footer .contact-info {
+.footer_3 .contact-info {
     font-family: "Inter", serif;
     font-size: 14px;
     font-weight: 400;
