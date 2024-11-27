@@ -1,4 +1,7 @@
 import React from "react";
+import searchman from "../media/searchman.svg";
+import documentlogo from "../media/documentlogo.svg";
+import folderslogo from "../media/folderslogo.svg";
 
 export default function Main() {
   return (
@@ -77,7 +80,15 @@ export default function Main() {
           </div>
         </div>
         <div className="right-section__search">
-          
+          <div className="container__img__search ">
+            <img src={searchman} alt="поиск" />
+          </div>
+        <div className="container__img__document">
+          <img src={documentlogo} alt="документ лого" />
+        </div>
+        <div className="container__img__folder">
+          <img src={folderslogo} alt="фолдер лого" />
+        </div>
         </div>
       </div>
     </main>
