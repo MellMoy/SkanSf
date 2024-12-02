@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Обертка для контента заголовка */
+.wrapper {
+  max-width: 1440px; /* Максимальная ширина */
+  height: 93px;
+  margin: 0 auto; /* Центрирование */
+  /* Горизонтальные отступы */
+}
+
+/* Внутренняя обертка заголовка */
+.header__wrapper {
+  display: flex; /* Используем flexbox для выравнивания элементов */
+  justify-content: space-between; /* Распределяем элементы по краям */
+  align-items: center; /* Вертикальное выравнивание по центру */
+}
+
+/* Логотип */
+.header__logo {
+  flex: 0 1 auto; /* Логотип не растягивается */
+}
+
+.header__logo-link {
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+.header__logo-pic {
+  padding-left: 60px; /* Максимальная высота логотипа */
+}
+
+/* Навигация */
+.header__nav {
+  flex: 1px;
+  padding-left: 120px; /* Занимаем оставшееся пространство */
+}
+
+.header__list {
+  list-style: none; /* Убираем маркеры списка */
+  display: flex; /* Используем flexbox для списка */
+  justify-content: center; /* Центрируем элементы списка */
+  margin: 0; /* Убираем отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  font-family: "Inter", serif;
+}
+
+.header__item {
+  margin: 0 30px; /* Отступы между элементами списка */
+}
+
+.header__link {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #000000; /* Цвет текста */
+  font-weight: 400; /* Жирность текста */
+  transition: color 0.3s; /* Плавный переход цвета */
+  font-size: 14px;
+}
+
+.header__link:hover {
+  color: #007bff; /* Цвет при наведении */
+}
+
+/* Правая секция заголовка */
+.header__Results-section {
+  display: flex; /* Используем flexbox для выравнивания */
+  align-items: center; /* Вертикальное выравнивание по центру */
+}
+
+.header__reg-block {
+  display: block; /* Используем flexbox для выравнивания */
+  align-items: center; /* Вертикальное выравнивание по центру */
+  padding-right: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  line-height: 0%;
+}
+
+.header__name__Results {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  opacity: 70%;
+  padding-bottom: 9px;
+}
+
+.header__Results-button {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: rgb(0, 0, 0); /* ��вет текста кнопки */
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 40%;
+  right: 10px;
+}
+
+.header__Mask {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 60px;
+}
+
+/* Хеадер для лимита  */
+
+.container__Box {
+  position: relative;
+  right: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__usedlimit {
+  position: relative;
+  right: 50px;
+  text-align: center;
+  bottom: 5px;
+}
+
+.container__usedlimit {
+  display: flex;
+  flex-direction: column; /* Располагаем элементы в колонку */
+}
+
+.limit__item {
+  position: relative;
+  top: 3px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between; /* Распределяем пространство между текстом и цифрами */
+  align-items: center; /* Выравниваем элементы по вертикали */
+  margin-bottom: 3px; /* Отступ между элементами */
+}
+
+.used,
+.limit {
+  margin-left: 10px; /* Отступ между текстом и цифрами */
+}
+
+.container__usedlimit p {
+  margin: 0;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.1px;
+  text-align: left;
+  padding-top: 7px;
+  opacity: 40%;
+  z-index: 1;
+}
+
+.container__usedlimit .used {
+  position: relative;
+  top: 4px;
+  right: 3px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  color: #000000;
+  opacity: 100%;
+}
+
+.container__usedlimit .limit {
+  position: relative;
+  top: 3px;
+  left: 2px;
+  color: #8ac540;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.limits__compain {
+  position: relative;
+  left: 17px;
+}
+
+.container__background {
+  position: absolute;
+  background-color: rgba(217, 217, 217, 1);
+  width: 175px;
+  height: 63px;
+  margin: 0;
+  border-radius: 5px;
+  z-index: 0;
+  opacity: 30%;
+
+}
