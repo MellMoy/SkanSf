@@ -92,6 +92,9 @@
     opacity: 40%;
     width: 146px;
     height: 17px;
+    position: relative;
+    top: 33px;
+    right: 100px;
 }
 
 .header__vertical-divider {
@@ -100,7 +103,9 @@
     background-color: #029491;/* Цвет разделителя */
     opacity: 60%;
     margin-right: 20px; /* Отступ справа */
-    top: 33px;
+    position: relative;
+    top: 22px;
+    left: 65px;
 
 }
 
@@ -113,6 +118,8 @@
     cursor: pointer; /* Курсор при наведении */
     width: 65px;
     height: 26px;
+    position: relative;
+    bottom: 5px;
     
 }
 

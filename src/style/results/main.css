@@ -1,0 +1,235 @@
+/* Скоро буду результаты */
+.container__results {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container__results__main {
+  padding-left: 760px;
+}
+
+.results__header__h1 {
+  font-family: "Ferry";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  position: relative;
+  right: 1000px;
+  padding-top: 69px;
+}
+
+.results__subheader__p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  letter-spacing: 0.02em;
+  position: relative;
+  right: 1000px;
+  padding-top: 36px;
+}
+
+.results__summary__h1 {
+  font-family: "Ferry";
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  position: relative;
+  padding-top: 127px;
+  right: 1000px;
+}
+
+.results__found__p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  letter-spacing: 0.02em;
+  color: rgba(148, 148, 148, 1);
+  position: relative;
+  padding-top: 17px;
+  right: 1000px;
+}
+
+/* Общая сводка */
+
+.results__table-container {
+  background-color: #fff; /* Цвет фона карточки */
+  border: 2px solid none; /* Граница */
+  border-radius: 10px; /* Закругление углов */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Тень */
+  position: relative;
+  right: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+}
+
+.results__table {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.results__table th,
+.tableresults__ td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: center;
+}
+.results__table th {
+  background-color: #00a99d;
+  color: #ffffff;
+}
+.results__table td {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 29px 63px 15px;
+}
+
+/* Карточка 1 */
+
+.Result__container__card {
+  position: relative;
+  right: 1000px;
+  display: flex;
+  gap: 38px;
+  padding-top: 58px;
+}
+
+.Result__card__1 {
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: #fff; /* Цвет фона карточки */
+  border: 2px solid none; /* Граница */
+  border-radius: 10px; /* Закругление углов */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Тень */
+}
+
+.Result__card-header {
+  display: flex;
+}
+
+.Result__h1 {
+  position: relative;
+  font-family: "Ferry";
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  padding-top: 107px;
+  right: 1000px;
+}
+
+.Result__data {
+  padding-top: 19px;
+  padding-left: 30px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+  color: rgba(148, 148, 148, 1);
+}
+
+.Result__post {
+  padding-top: 19px;
+  padding-left: 14px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.03em;
+  color: rgba(148, 148, 148, 1);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.Result__card-title {
+  padding-top: 24px;
+  padding-left: 30px;
+  font-family: "Inter";
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31.47px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 1);
+}
+
+.Result__card-tag {
+  margin-top: 14px;
+  margin-left: 30px;
+  width: 157px;
+  height: 22px;
+  background-color: rgba(255, 182, 79, 1);
+  border-radius: 5px;
+  padding-left: 30px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  letter-spacing: 0.02em;
+}
+
+.Result__card-tag p {
+  padding-top: 4px;
+}
+
+/* Картинки стили */
+
+.card-image {
+  padding-top: 14px;
+  padding-left: 30px;
+}
+
+.Result__card-content__p {
+  padding-left: 30px;
+  padding-top: 20px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 1);
+  opacity: 50%;
+}
+
+.Result__card-button {
+  background-color: rgba(124, 227, 225, 1);
+  margin-left: 30px;
+  margin-top: 32px;
+  width: 223px;
+  height: 46.54px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.Result__card-button p {
+  position: relative;
+  bottom: 4px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.Result__card-footer {
+  display: flex;
+  padding-bottom: 35.46px;
+}
+
+.Result__card-words p {
+  padding-left: 250px;
+  padding-top: 45px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+color:rgba(148, 148, 148, 1);
+}
