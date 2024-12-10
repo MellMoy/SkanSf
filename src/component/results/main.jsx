@@ -1,6 +1,8 @@
 import React from "react";
 
 import mans__img from "../media/mans__img.svg"
+import mans__imgsf from "../media/mans__imgsf.svg"
+import img__main from "../media/img__main.svg"
 
 export default function Main() {
   return (
@@ -11,7 +13,7 @@ export default function Main() {
           Поиск может занять некоторое время,<br/>просим сохранять терпение.
         </div>
         <div className="results__image-container">
-        <img alt="" src=""/>
+        <img alt="" src={img__main} />
         </div>
 
         <div className="results__summary__h1">Общая сводка</div>
@@ -92,24 +94,18 @@ export default function Main() {
           <div className="Result__card-words"><p>2 543 слова</p></div>
         </div>
       </div>
-      <div className="Result__card">
-        <div className="Result__card-header">
-          <div>15.10.2021</div>
-          <div>VC.RU</div>
+      <div className="Result__card__2">
+        <div className="Result__card-header2">
+          <div className="Result__data2" >15.10.2021</div>
+          <div className="Result__post2" >VC.RU</div>
         </div>
-        <div className="Result__card-title__h1">
-          Работа в Data Science в 2022 году: тренды, навыки и обзор
+        <div className="Result__card-title__2">
+          Работа в Data Science в 2022 году:<br/>тренды, навыки и обзор
           специализаций
         </div>
-        <div className="Result__card-tag">Технические новости</div>
-        <img
-          alt="Изображение, связанное с Data Science"
-          className="card-image"
-          height="300"
-          src="https://storage.googleapis.com/a1aa/image/XCV2LzDvFR7CJRqXgSX2eWYa2wlwAyBzSMZGrAyMarxk5k8JA.jpg"
-          width="600"
-        />
-        <div className="Result__card-content">
+        <div className="Result__card-tag2"><p>Технические новости</p></div>
+        <img alt="Изображение связанно со Skillfactory" className="card-image2" src={mans__imgsf}/>
+        <div className="Result__card-content__p2">
           Кто такой Data Scientist и чем он занимается? Data Scientist — это
           специалист, который работает с большими массивами данных, чтобы с их
           помощью решить задачи бизнеса. Простой пример использования больших
@@ -123,13 +119,13 @@ export default function Main() {
           и очищает данные, создает математическую модель для их анализа,
           тестирует ее и презентует готовое решение бизнесу.
         </div>
-        <div className="Result__card-footer">
-          <button className="Result__card-button">Читать в источнике</button>
-          <div className="Result__card-words">3 233 слова</div>
+        <div className="Result__card-footer2">
+          <button className="Result__card-button2"><p>Читать в источнике</p></button>
+          <div className="Result__card-words2"><p>3 233 слова</p></div>
         </div>
       </div>
-      <button className="Result__load-more">Показать больше</button>
     </div>
+    <button className="Result__load-more2"><p>Показать больше</p></button>
       </div>
     </main>
   );
