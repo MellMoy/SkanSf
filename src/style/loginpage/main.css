@@ -1,7 +1,7 @@
 .main-content {
   position: relative;
   margin-top: 69px;
-  margin-left: 95px;
+  margin-left: 60px;
 
   font-family: "Ferry";
   font-size: 40px;
@@ -25,13 +25,13 @@
   height: 500px;
   width: 395px;
   position: absolute;
-  right: 130px;
+  right: 180px;
   bottom: 35px;
 }
 
 .image-castle img {
   position: absolute;
-  right: 550px;
+  right: 600px;
   bottom: 540px;
   z-index: 1;
 }

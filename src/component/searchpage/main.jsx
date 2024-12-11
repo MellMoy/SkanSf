@@ -21,6 +21,10 @@ export default function Main() {
               <h1 className="tonality">Тональность</h1>
               <select id="tonality">
                 <option>Любая</option>
+                <option>Статусная</option>
+                <option>Идеологическая </option>
+                <option>Агрессивная  </option>
+
               </select>
             </div>
             <div className="form-group__search">
@@ -43,32 +47,33 @@ export default function Main() {
 
             <div className="form-group__search__checkbox">
               <div className="checkbox-label__search">
-                <input checked="" type="checkbox" />
+                <input type="checkbox" />
                 <label>Признак максимальной полноты</label>
               </div>
               <div className="checkbox-label__search">
-                <input checked="" type="checkbox" />
+                <input type="checkbox" />
+                
                 <label>Упоминания в бизнес-контексте</label>
               </div>
               <div className="checkbox-label__search">
-                <input checked="" type="checkbox" />
+                <input type="checkbox" />
                 <label>Главная роль в публикации</label>
               </div>
               <div className="checkbox-label__search">
-                <input type="checkbox" />
-                <label>Публикации только с риск-факторами</label>
+                <input className= "checkbox1" checked="" type="checkbox" />
+                <label className= "checkbox1">Публикации только с риск-факторами</label>
+              </div>
+              <div className="checkbox-label__search">
+                <input className= "checkbox1" checked="" type="checkbox" />
+                <label className= "checkbox1">Включать технические новости рынков</label>
               </div>
               <div className="checkbox-label__search">
                 <input type="checkbox" />
-                <label>Включать технические новости рынков</label>
-              </div>
-              <div className="checkbox-label__search">
-                <input checked="" type="checkbox" />
                 <label>Включать анонсы и календари</label>
               </div>
               <div className="checkbox-label__search">
-                <input type="checkbox" />
-                <label>Включать сводки новостей</label>
+                <input className= "checkbox1" checked="" type="checkbox" />
+                <label className= "checkbox1">Включать сводки новостей</label>
               </div>
             </div>
             <div className="form-group__search">
