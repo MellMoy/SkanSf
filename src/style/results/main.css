@@ -56,12 +56,12 @@
 }
 
 /* Общая сводка */
-
+/* 
 .results__table-container {
-  background-color: #fff; /* Цвет фона карточки */
-  border: 2px solid none; /* Граница */
-  border-radius: 10px; /* Закругление углов */
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Тень */
+  background-color: #fff; 
+  border: 2px solid none; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
   position: relative;
   right: 1050px;
   display: flex;
@@ -90,6 +90,70 @@
   background-color: #ffffff;
   color: #000000;
   padding: 29px 63px 15px;
+} */
+
+.general-main-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 1250px;
+  border: 2px solid #029491;
+  border-radius: 10px;
+  position: relative;
+  right: 1050px;
+  margin-top: 27px;
+  margin-left: 30px;
+  
+}
+
+.general-left-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: #029491;
+  border-left-top-radius: 10px;
+  border-left-bottom-radius: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.general-right-container span,
+.general-left-container span {
+  margin-bottom: 15px;
+}
+
+.general-right-container span:nth-of-type(3),
+.general-left-container span:nth-of-type(3) {
+  margin-bottom: 0;
+}
+
+.general-right-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.vertical-line {
+  display: flex;
+  width: 2px;
+  background-color: grey;
+  height: 90px;
+  margin-top: 6px;
+}
+
+.chevrone__left {
+  position: absolute;
+  left: -615px;
+  margin-top: 35px;
+  opacity: 20%;
+}
+
+.chevrone__right {
+  position: absolute;
+  left: 670px;
+  bottom: 1050px
 }
 
 /* Карточка 1 */
